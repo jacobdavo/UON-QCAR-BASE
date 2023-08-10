@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+	 <gazebo reference="camera_rgb">
+        <sensor type="depth" name="camera_rgb_depth">
+            <pose>0 0 0 0 0 0 </pose>
+        	<visualize>true</visualize>
+            <always_on>true</always_on>
+            <update_rate>10</update_rate>
+            <camera name="depth_camera">
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                	<format>R8G8B8</format>
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+                <depth>
+                    <image>
+                        <width>640</width>
+                        <height>480</height>
+                        <format>L8</format>
+                    </image>
+                    <range>12.0</range>
+                </depth>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_depth_camera.so">
+                <cameraName>intel_depth_camera</cameraName>
+                <frameName>hello</frameName>
+            </plugin>
+        </sensor>
+    </gazebo>
+</robot>

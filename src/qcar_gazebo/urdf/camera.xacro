@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+	 <gazebo reference="camera_csi_front">
+        <sensor type="camera" name="front_camera">
+        	<visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <camera name="front">
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                	<format>R8G8B8</format>
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <cameraName>front_camera</cameraName>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+   <!--  <gazebo reference="camera_csi_right">
+        <sensor type="camera" name="right_camera">
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <camera name="right">
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                    <format>R8G8B8</format>
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <cameraName>right_camera</cameraName>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <gazebo reference="camera_csi_left">
+        <sensor type="camera" name="left_camera">
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <camera name="left">
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                    <format>R8G8B8</format>
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <cameraName>left_camera</cameraName>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <gazebo reference="camera_csi_back">
+        <sensor type="camera" name="back_camera">
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <camera name="back">
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                    <format>R8G8B8</format>
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <cameraName>back_camera</cameraName>
+            </plugin>
+        </sensor>
+    </gazebo> -->
+</robot>
