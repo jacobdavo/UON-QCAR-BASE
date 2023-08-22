@@ -3662,7 +3662,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>-0.8 4.3 0.5 0 -0 0</pose>
+      <pose>-5.2 4.3 0.5 0 -0 0</pose>
     </model>
     <model name='orange_cone_1'>
       <link name='link'>
@@ -3711,7 +3711,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>-0.8 1.7 0.5 0 -0 0</pose>
+      <pose>-5.2 1.7 0.5 0 -0 0</pose>
     </model>
     <model name='orange_cone_2'>
       <link name='link'>
@@ -3760,7 +3760,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>-0.45 4.3 0.5 0 -0 0</pose>
+      <pose>-4.85 4.3 0.5 0 -0 0</pose>
     </model>
     <model name='orange_cone_3'>
       <link name='link'>
@@ -3809,7 +3809,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>-0.45 1.7 0.5 0 -0 0</pose>
+      <pose>-4.85 1.7 0.5 0 -0 0</pose>
     </model>
     <state world_name='default'>
       <sim_time>61 824000000</sim_time>
@@ -4187,40 +4187,40 @@
         </link>
       </model>
       <model name='orange_cone_0'>
-        <pose>-0.799986 4.29999 0.032838 2e-06 0.000428 -1.1e-05</pose>
+        <pose>-5.200086 4.29999 0.032838 2e-06 0.000428 -1.1e-05</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>-0.799986 4.29999 0.032838 2e-06 0.000428 -1.1e-05</pose>
+          <pose>-5.200086 4.29999 0.032838 2e-06 0.000428 -1.1e-05</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='orange_cone_1'>
-        <pose>-0.800033 1.69999 0.032912 -1e-06 -0.000998 -7e-06</pose>
+        <pose>-5.200033 1.69999 0.032912 -1e-06 -0.000998 -7e-06</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>-0.800033 1.69999 0.032912 -1e-06 -0.000998 -7e-06</pose>
+          <pose>-5.200033 1.69999 0.032912 -1e-06 -0.000998 -7e-06</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='orange_cone_2'>
-        <pose>-0.450027 4.29999 0.032888 -1e-06 -0.000807 -7e-06</pose>
+        <pose>-4.850027 4.29999 0.032888 -1e-06 -0.000807 -7e-06</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>-0.450027 4.29999 0.032888 -1e-06 -0.000807 -7e-06</pose>
+          <pose>-4.850027 4.29999 0.032888 -1e-06 -0.000807 -7e-06</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='orange_cone_3'>
-        <pose>-0.449982 1.69999 0.032863 2e-06 0.000544 -3e-06</pose>
+        <pose>-4.849982 1.69999 0.032863 2e-06 0.000544 -3e-06</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>-0.449982 1.69999 0.032863 2e-06 0.000544 -3e-06</pose>
+          <pose>-4.849982 1.69999 0.032863 2e-06 0.000544 -3e-06</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>

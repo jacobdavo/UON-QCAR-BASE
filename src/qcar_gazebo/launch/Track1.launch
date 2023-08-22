@@ -1,11 +1,11 @@
 <launch>	  
     <!-- Set initial robot pose -->
-    <arg name="x" default="1.965"/>
-    <arg name="y" default="-0.5"/>
+    <arg name="x" default="-4.3"/>
+    <arg name="y" default="3"/>
     <arg name="z" default="0"/>
     <arg name="roll" default="0"/>
     <arg name="pitch" default="0"/>
-    <arg name="yaw" default="1.5844"/>
+    <arg name="yaw" default="-3.14"/>
 
 	<!-- Send the URDF to the parameter server -->
 	<param name="robot_description" command="$(find xacro)/xacro $(find qcar_gazebo)/urdf/qcar_model.xacro" />
