@@ -10,6 +10,8 @@
 	<!-- Send the URDF to the parameter server -->
 	<param name="robot_description" command="$(find xacro)/xacro $(find qcar_gazebo)/urdf/qcar_model.xacro" />
 
+	<rosparam file="$(find qcar_control)/config/qcar_control.yaml" command="load"/>
+
 	<!-- Publish the robot state -->
 	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
 	</node>
@@ -29,6 +31,6 @@
 
 	<!-- Spawn the controller -->
 	<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
-		output="screen" ns="/qcar" args="rr_controller rl_controller base_fr_controller base_fl_controller joint_state_controller"/>
+		output="screen" ns="/qcar" args="base_fr_controller base_fl_controller joint_state_controller"/>
 
 </launch>
