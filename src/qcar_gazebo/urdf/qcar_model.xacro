@@ -3,6 +3,7 @@
 <robot name="QCar" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
   <xacro:include filename="$(find qcar_gazebo)/urdf/materials.xacro" />
+  <xacro:include filename="$(find gazebo_ros_motors)/xacro/joint_motor.xacro"/>
 
   <!-- <xacro:include filename="$(find qcar_gazebo)/urdf/lidar.xacro" /> -->
   <!-- <xacro:include filename="$(find qcar_gazebo)/urdf/camera.xacro" /> -->
