@@ -124,12 +124,17 @@
             <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
         </inertial>
     </link>
-    <joint name="hubfl_wheelfl_joint" type="continuous">
+    <!-- <joint name="hubfl_wheelfl_joint" type="continuous">
         <parent link="hubfl"/>
         <child link="wheelfl"/>
         <origin rpy="0 0 3.14" xyz="0 0 0"/>
         <axis xyz="0 1 0"/>
-    </joint>
+    </joint> -->
+    <xacro:joint_motor motor_name="wheelfl_motor" parent_link="hubfl" child_link="wheelfl">
+        <xacro:property name="params_yaml" value="$(find gazebo_ros_motors)/params/joint_motor.yaml"/>
+        <origin xyz="0 0 0" rpy="0 0 3.14"/>
+        <axis xyz="0 1 0" rpy="0 0 0"/>
+    </xacro:joint_motor>
     <link name="wheelfl">
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -150,12 +155,17 @@
             <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
         </inertial>
     </link>
-    <joint name="hubfr_wheelfr_joint" type="continuous">
+    <!-- <joint name="hubfr_wheelfr_joint" type="continuous">
         <parent link="hubfr"/>
         <child link="wheelfr"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
         <axis xyz="0 1 0"/>
-    </joint>
+    </joint> -->
+    <xacro:joint_motor motor_name="wheelfr_motor" parent_link="hubfr" child_link="wheelfr">
+        <xacro:property name="params_yaml" value="$(find gazebo_ros_motors)/params/joint_motor.yaml"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0" rpy="0 0 0"/>
+    </xacro:joint_motor>
     <link name="wheelfr">
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -177,12 +187,17 @@
         </inertial>
     </link>
 
-    <joint name="base_wheelrl_joint" type="continuous">
+    <!-- <joint name="base_wheelrl_joint" type="continuous">
         <parent link="base"/>
         <child link="wheelrl"/>
         <origin rpy="0 0 3.14" xyz="-0.12765 0.05610 0.03338"/>
         <axis xyz="0 1 0"/>
-    </joint>
+    </joint> -->
+    <xacro:joint_motor motor_name="wheelrl_motor" parent_link="base" child_link="wheelrl">
+        <xacro:property name="params_yaml" value="$(find gazebo_ros_motors)/params/joint_motor.yaml"/>
+        <origin xyz="-0.12765 0.05610 0.03338" rpy="0 0 3.14"/>
+        <axis xyz="0 1 0" rpy="0 0 0"/>
+    </xacro:joint_motor>
     <link name="wheelrl">
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -204,12 +219,17 @@
         </inertial>
     </link>
 
-    <joint name="base_wheelrr_joint" type="continuous">
+    <!-- <joint name="base_wheelrr_joint" type="continuous">
         <parent link="base"/>
         <child link="wheelrr"/>
         <origin rpy="0 0 0" xyz="-0.12765 -0.05610 0.03338"/>
         <axis xyz="0 1 0"/>
-    </joint>
+    </joint> -->
+    <xacro:joint_motor motor_name="wheelrr_motor" parent_link="base" child_link="wheelrr">
+        <xacro:property name="params_yaml" value="$(find gazebo_ros_motors)/params/joint_motor.yaml"/>
+        <origin xyz="-0.12765 -0.05610 0.03338" rpy="0 0 0"/>
+        <axis xyz="0 1 0" rpy="0 0 0"/>
+    </xacro:joint_motor>
     <link name="wheelrr">
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>    
@@ -340,7 +360,7 @@
 
     <transmission name="hubfl_wheelfl_tran">
         <type>>transmission_interface/SimpleTransmission</type>
-        <joint name="hubfl_wheelfl_joint">
+        <joint name="wheelfl_motor">
             <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
         </joint>
         <actuator name="hubfl_wheelfl_motor">
@@ -349,32 +369,13 @@
     </transmission>
     <transmission name="hubfr_wheelfr_tran">
         <type>>transmission_interface/SimpleTransmission</type>
-        <joint name="hubfr_wheelfr_joint">
+        <joint name="wheelfr_motor">
             <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
         </joint>
         <actuator name="hubfr_wheelfr_motor">
             <mechanicalReduction>1</mechanicalReduction>
         </actuator>
     </transmission>
-
-    <transmission name="base_wheelrl_tran">
-        <type>>transmission_interface/SimpleTransmission</type>
-        <joint name="base_wheelrl_joint">
-            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
-        </joint>
-        <actuator name="base_wheelrl_motor">
-            <mechanicalReduction>1</mechanicalReduction>
-        </actuator>
-    </transmission>
-    <transmission name="base_wheelrr_tran">
-        <type>>transmission_interface/SimpleTransmission</type>
-        <joint name="base_wheelrr_joint">
-            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
-        </joint>
-        <actuator name="base_wheelrr_motor">
-            <mechanicalReduction>1</mechanicalReduction>
-        </actuator>
-    </transmission> 
 
     <gazebo>
         <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
