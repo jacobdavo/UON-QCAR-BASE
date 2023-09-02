@@ -93,7 +93,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -114,7 +114,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -142,7 +142,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -163,7 +163,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -191,7 +191,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -212,7 +212,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -240,7 +240,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -261,7 +261,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -289,7 +289,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -310,7 +310,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -338,7 +338,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -359,7 +359,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -387,7 +387,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -408,7 +408,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -436,7 +436,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -457,7 +457,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -485,7 +485,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -506,7 +506,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -534,7 +534,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -555,7 +555,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -583,7 +583,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -604,7 +604,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -632,7 +632,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -653,7 +653,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -681,7 +681,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -702,7 +702,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -730,7 +730,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -751,7 +751,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -779,7 +779,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -800,7 +800,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -828,7 +828,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -849,7 +849,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -877,7 +877,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -898,7 +898,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -926,7 +926,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -947,7 +947,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -975,7 +975,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -996,7 +996,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1024,7 +1024,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1045,7 +1045,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1073,7 +1073,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1094,7 +1094,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1122,7 +1122,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1143,7 +1143,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1171,7 +1171,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1192,7 +1192,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1220,7 +1220,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1241,7 +1241,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1269,7 +1269,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1290,7 +1290,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1318,7 +1318,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1339,7 +1339,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1367,7 +1367,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1388,7 +1388,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1416,7 +1416,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1437,7 +1437,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1465,7 +1465,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1486,7 +1486,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1514,7 +1514,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1535,7 +1535,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1563,7 +1563,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1584,7 +1584,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1612,7 +1612,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1633,7 +1633,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1661,7 +1661,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1682,7 +1682,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1710,7 +1710,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1731,7 +1731,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1759,7 +1759,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1780,7 +1780,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1808,7 +1808,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1829,7 +1829,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1857,7 +1857,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1878,7 +1878,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1906,7 +1906,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1927,7 +1927,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1955,7 +1955,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1976,7 +1976,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2004,7 +2004,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2025,7 +2025,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2053,7 +2053,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2074,7 +2074,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2102,7 +2102,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2123,7 +2123,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2151,7 +2151,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2172,7 +2172,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2200,7 +2200,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2221,7 +2221,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2249,7 +2249,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2270,7 +2270,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2298,7 +2298,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2319,7 +2319,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2347,7 +2347,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2368,7 +2368,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2396,7 +2396,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2417,7 +2417,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2445,7 +2445,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2466,7 +2466,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2494,7 +2494,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2515,7 +2515,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2543,7 +2543,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2564,7 +2564,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2592,7 +2592,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2613,7 +2613,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2641,7 +2641,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2662,7 +2662,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2690,7 +2690,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2711,7 +2711,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2739,7 +2739,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2760,7 +2760,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2788,7 +2788,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2809,7 +2809,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2837,7 +2837,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2858,7 +2858,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2886,7 +2886,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2907,7 +2907,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2935,7 +2935,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2956,7 +2956,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2984,7 +2984,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3005,7 +3005,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3033,7 +3033,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3054,7 +3054,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3082,7 +3082,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3103,7 +3103,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3131,7 +3131,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3152,7 +3152,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3180,7 +3180,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3201,7 +3201,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3229,7 +3229,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3250,7 +3250,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3278,7 +3278,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3299,7 +3299,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3327,7 +3327,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3348,7 +3348,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3376,7 +3376,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3397,7 +3397,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3425,7 +3425,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3446,7 +3446,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3474,7 +3474,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3495,7 +3495,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3523,7 +3523,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3544,7 +3544,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3572,7 +3572,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3593,7 +3593,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3621,7 +3621,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3642,7 +3642,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3670,7 +3670,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3691,7 +3691,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3719,7 +3719,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3740,7 +3740,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3768,7 +3768,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3789,7 +3789,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3817,7 +3817,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3838,7 +3838,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3866,7 +3866,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3887,7 +3887,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3915,7 +3915,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3936,7 +3936,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3964,7 +3964,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3985,7 +3985,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4013,7 +4013,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4034,7 +4034,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4062,7 +4062,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4083,7 +4083,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4111,7 +4111,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4132,7 +4132,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4160,7 +4160,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4181,7 +4181,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4209,7 +4209,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4230,7 +4230,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4258,7 +4258,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4279,7 +4279,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4307,7 +4307,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4328,7 +4328,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4356,7 +4356,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4377,7 +4377,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4405,7 +4405,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4426,7 +4426,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4454,7 +4454,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4475,7 +4475,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4503,7 +4503,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4524,7 +4524,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4552,7 +4552,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4573,7 +4573,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4601,7 +4601,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4622,7 +4622,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4650,7 +4650,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4671,7 +4671,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4699,7 +4699,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4720,7 +4720,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4748,7 +4748,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4769,7 +4769,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4797,7 +4797,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4818,7 +4818,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4846,7 +4846,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4867,7 +4867,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4895,7 +4895,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4916,7 +4916,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4944,7 +4944,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4965,7 +4965,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4993,7 +4993,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5014,7 +5014,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5042,7 +5042,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5063,7 +5063,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5091,7 +5091,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5112,7 +5112,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5140,7 +5140,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5161,7 +5161,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5189,7 +5189,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5210,7 +5210,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5238,7 +5238,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5259,7 +5259,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5287,7 +5287,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5308,7 +5308,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5336,7 +5336,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5357,7 +5357,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5385,7 +5385,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5406,7 +5406,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5434,7 +5434,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5455,7 +5455,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5483,7 +5483,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5504,7 +5504,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5532,7 +5532,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5553,7 +5553,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5581,7 +5581,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5602,7 +5602,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5630,7 +5630,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5651,7 +5651,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5679,7 +5679,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5700,7 +5700,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5728,7 +5728,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5749,7 +5749,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5777,7 +5777,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5798,7 +5798,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5826,7 +5826,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5847,7 +5847,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5875,7 +5875,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5896,7 +5896,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5924,7 +5924,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5945,7 +5945,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5973,7 +5973,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5994,7 +5994,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6022,7 +6022,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6043,7 +6043,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6071,7 +6071,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6092,7 +6092,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6120,7 +6120,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6141,7 +6141,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6169,7 +6169,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6190,7 +6190,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6218,7 +6218,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6239,7 +6239,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6267,7 +6267,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6288,7 +6288,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6316,7 +6316,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6337,7 +6337,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6365,7 +6365,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6386,7 +6386,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6414,7 +6414,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6435,7 +6435,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6463,7 +6463,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6484,7 +6484,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6512,7 +6512,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6533,7 +6533,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
+              <uri>/home/elliott/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
             </mesh>
           </geometry>
         </visual>

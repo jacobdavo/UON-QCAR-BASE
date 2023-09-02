@@ -3,3 +3,4 @@
 .catkin_workspace
 .vscode
 UON-QCAR-BASE.code-workspace
+/src/qcar_gazebo/worlds
