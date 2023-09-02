@@ -10,7 +10,7 @@
 	<!-- Send the URDF to the parameter server -->
 	<param name="robot_description" command="$(find xacro)/xacro $(find qcar_gazebo)/urdf/qcar_model.xacro" />
 
-	<rosparam file="$(find qcar_controlPlugin)/config/qcar_controlPlugin.yaml" command="load"/>
+	<rosparam file="$(find qcar_controlplugin)/config/qcar_controlplugin.yaml" command="load"/>
 
 	<!-- Publish the robot state -->
 	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
