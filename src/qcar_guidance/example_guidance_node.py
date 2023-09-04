@@ -8,6 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from qcar_guidance.msg import TrajectoryMessage
 from time import sleep
+from scipy.interpolate import interp1d
 
 def midpoint(point1,point2):
 	x_midpoint = (point1[0] + point2[0])/2
@@ -75,22 +76,37 @@ if __name__ == '__main__':
 
 	midpoints[0,-1] = midpoints[0,0]
 	midpoints[1,-1] = midpoints[1,0]
+	blue_cones_x.append(blue_cones_x[0])
+	blue_cones_y.append(blue_cones_y[0])
+	yellow_cones_x.append(yellow_cones_x[0])
+	yellow_cones_y.append(yellow_cones_y[0])
 
-	# plt.figure()
-	# plt.plot(blue_cones_x,blue_cones_y,marker="o", markersize=10, markeredgecolor="green", markerfacecolor="green")
-	# plt.plot(yellow_cones_x,yellow_cones_y,marker="o", markersize=10, markeredgecolor="blue", markerfacecolor="blue")
-	# plt.plot(midpoints[0],midpoints[1],marker="o", markersize=10, markeredgecolor="red", markerfacecolor="red")
-	# plt.title('Start Track')
-	# ax = plt.gca()
-	# ax.set_aspect('equal', adjustable='box')
-	# plt.show()
 
-	rate = rospy.Rate(5)
+	midpoints_distance = (np.cumsum( np.sqrt(np.sum( np.diff(midpoints, axis=1)**2, axis=0))))
+	midpoints_distance_total = midpoints_distance[-1]
+	midpoints_alpha = np.linspace(0,1,int(round(8*midpoints_distance_total)))
+	midpoints_distance = np.insert(midpoints_distance, 0, 0)
+	midpoints_distance = midpoints_distance/midpoints_distance[-1]
+	midpoints_interpolator = interp1d(midpoints_distance, midpoints, kind = 'quadratic', axis = 1)
+	midpoints = midpoints_interpolator(midpoints_alpha)
+
+	plt.figure()
+	plt.plot(blue_cones_x,blue_cones_y,marker="o", markersize=10, markeredgecolor="blue", markerfacecolor="blue")
+	plt.plot(yellow_cones_x,yellow_cones_y,marker="o", markersize=10, markeredgecolor="yellow", markerfacecolor="yellow")
+	plt.plot(midpoints[0],midpoints[1],marker="o", markersize=10, markeredgecolor="red", markerfacecolor="red")
+	plt.title('Start Track')
+	ax = plt.gca()
+	ax.set_aspect('equal', adjustable='box')
+	plt.show()
+
+	rate = rospy.Rate(0.2)
 	while not rospy.is_shutdown():
 		trajectoryTopic = TrajectoryMessage()
 		trajectoryTopic.waypoint_times = waypoint_times
 		trajectoryTopic.waypoint_x = midpoints[0]
 		trajectoryTopic.waypoint_y = midpoints[1]
+		trajectoryTopic.velocity = velocity
 		trajectory_publisher.publish(trajectoryTopic)
+		rospy.loginfo("Trajectory Published")
 		rate.sleep()
 
