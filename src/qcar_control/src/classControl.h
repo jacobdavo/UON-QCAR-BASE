@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include "qcar_control/TrajectoryMessage.h"
 #include "std_msgs/Float64.h"
+#include "std_msgs/Float32.h"
 #include "nav_msgs/Odometry.h"
 
 struct States
@@ -32,12 +33,26 @@ class classControl
         double getWPX(int);
         double getWPY(int);
         double getWPT(int);
+        int lengthWP();
+
+        float velocityPID(float velDesired, float vel);
+        void command(float omega, float delta);
 		
 	private:
 
         ros::NodeHandle* n;
         ros::Subscriber subGuid;
         ros::Subscriber subNav;
+        ros::Publisher pubCmdRl;
+        ros::Publisher pubCmdRr;
+        ros::Publisher pubCmdFl;
+        ros::Publisher pubCmdFr;
+        ros::Publisher pubCmdFls;
+        ros::Publisher pubCmdFrs;
+
+        std_msgs::Float32 velCmdR;
+        std_msgs::Float32 velCmdL;
+        std_msgs::Float64 angCmd;
 
         void init_guidSub();
         void guidCallback(const qcar_control::TrajectoryMessage::ConstPtr&);
@@ -45,6 +60,8 @@ class classControl
         void init_navSub();
         void navCallback(const nav_msgs::Odometry::ConstPtr& msg);
         float quat_to_rad(float, float, float, float);
+
+        void init_cmdPub();
 
 
         std::vector<double> waypoint_times;
@@ -54,6 +71,12 @@ class classControl
         struct States qcarStates;
 
         float dt = 0;
+        float iPrev = 0;
+        float ePrev = 0;
+        float Kp = 0.5;
+        float Ki = 0.2;
+        float Kd = 0;
+        float r = 0.033;
 
 };
 

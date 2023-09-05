@@ -13,6 +13,7 @@ classControl::classControl(ros::NodeHandle* _n, float dt_)
 	dt = dt_;
     init_guidSub();
     init_navSub();
+    init_cmdPub();
     printf("classControl successfuly created!\n");
 };
 
@@ -37,7 +38,7 @@ double classControl::getWPX(int idx)
         return waypoint_x.at(idx);
     }
 
-    return -1;
+    return -1; // no waypoints
 }
 
 double classControl::getWPY(int idx)
@@ -47,7 +48,7 @@ double classControl::getWPY(int idx)
         return waypoint_y.at(idx);
     }
 
-    return -1;
+    return -1; // no waypoints
 }
 
 double classControl::getWPT(int idx)
@@ -57,7 +58,7 @@ double classControl::getWPT(int idx)
         return waypoint_times.at(idx);
     }
 
-    return -1;
+    return -1; // no waypoints
 }
 
 // this callback should talk to the navigation topics i.e not /odom. Talk to the simulated sensors instead.
@@ -91,4 +92,59 @@ float classControl::quat_to_rad(float x, float y, float z, float w)
     yaw = atan2(a, b);
 
     return yaw;
+}
+
+int classControl::lengthWP()
+{
+    return waypoint_times.size();
+}
+
+void classControl::init_cmdPub()
+{
+
+	pubCmdRl = n->advertise<std_msgs::Float32>("/wheelrl_motor/command", 1);
+    pubCmdRr = n->advertise<std_msgs::Float32>("wheelrr_motor/command", 1);
+    pubCmdFl = n->advertise<std_msgs::Float32>("/wheelfl_motor/command", 1);
+    pubCmdFr = n->advertise<std_msgs::Float32>("wheelfr_motor/command", 1);
+
+    pubCmdFls = n->advertise<std_msgs::Float64>("qcar/base_fl_controller/command", 1);
+    pubCmdFrs = n->advertise<std_msgs::Float64>("qcar/base_fr_controller/command", 1);
+}
+
+void classControl::command(float omega, float delta)
+{
+
+	velCmdL.data = -omega;
+	velCmdR.data = omega;
+	angCmd.data = delta;
+
+	pubCmdRl.publish(velCmdL);
+    pubCmdRr.publish(velCmdR);
+    pubCmdFl.publish(velCmdL);
+    pubCmdFr.publish(velCmdR);
+
+    pubCmdFls.publish(angCmd);
+    pubCmdFrs.publish(angCmd);
+}
+
+float classControl::velocityPID(float velDesired, float vel)
+{
+	float P;
+	float I;
+	float D;
+	float e;
+	float u;
+
+	e = velDesired - vel;
+
+	P = e;
+	I = iPrev + e*dt;
+	D = (e - ePrev)/dt;
+
+	u = (Kp*P + Ki*I + Kd*D)/r;
+
+	iPrev = I;
+	ePrev = e;
+
+	return u;
 }
