@@ -63,16 +63,13 @@ if __name__ == '__main__':
 
 	blue_cones_x,blue_cones_y, yellow_cones_x, yellow_cones_y = get_cone_positions()
 	midpoints = np.empty([2,len(blue_cones_x)+1])
-	waypoint_times = [0]
 	velocity = 0.5
 
 	for i in range(0,len(blue_cones_x)):
 		x_midpoint, y_midpoint = midpoint([blue_cones_x[i],blue_cones_y[i]], [yellow_cones_x[i],yellow_cones_y[i]])
 		midpoints[0,i] = x_midpoint
 		midpoints[1,i] = y_midpoint
-		if i != 0:
-			waypoint_distance = math.dist([midpoints[0,i-1],midpoints[1,i-1]],[midpoints[0,i],midpoints[1,i]])
-			waypoint_times.append(waypoint_times[-1] + waypoint_distance/velocity)
+		
 
 	midpoints[0,-1] = midpoints[0,0]
 	midpoints[1,-1] = midpoints[1,0]
@@ -89,6 +86,12 @@ if __name__ == '__main__':
 	midpoints_distance = midpoints_distance/midpoints_distance[-1]
 	midpoints_interpolator = interp1d(midpoints_distance, midpoints, kind = 'quadratic', axis = 1)
 	midpoints = midpoints_interpolator(midpoints_alpha)
+
+	waypoint_times = [0]
+	for i in range(1,len(midpoints[0])):
+		waypoint_distance = math.dist([midpoints[0,i-1],midpoints[1,i-1]],[midpoints[0,i],midpoints[1,i]])
+		waypoint_times.append(waypoint_times[-1] + waypoint_distance/velocity)
+	breakpoint()
 
 	plt.figure()
 	plt.plot(blue_cones_x,blue_cones_y,marker="o", markersize=10, markeredgecolor="blue", markerfacecolor="blue")
