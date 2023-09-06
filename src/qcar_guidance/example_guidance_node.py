@@ -48,6 +48,20 @@ def get_cone_positions():
 	except rospy.ServiceException as e:
 		rospy.loginfo("Get Model State service call failed:  {0}".format(e))
 
+def get_qcar_state():
+    try:
+    	
+    	qcar_state_get = rospy.ServiceProxy('/gazebo/get_model_state', GetModelState)
+    	qcar_state = qcar_state_get("qcar", "")
+
+    	current_x = qcar_state.pose.position.x
+    	current_y = qcar_state.pose.position.y
+
+    	return current_x, current_y
+
+    except rospy.ServiceException as e:
+    	rospy.loginfo("Get Model State service call failed:  {0}".format(e))
+
 if __name__ == '__main__':
 	rospy.init_node('example_guidance_node', disable_signals=True)
 
@@ -62,13 +76,16 @@ if __name__ == '__main__':
 	trajectory_publisher = rospy.Publisher('/qcar/trajectory_topic', TrajectoryMessage, queue_size = 0)
 
 	blue_cones_x,blue_cones_y, yellow_cones_x, yellow_cones_y = get_cone_positions()
-	midpoints = np.empty([2,len(blue_cones_x)+1])
-	velocity = 0.5
+	current_x, current_y = get_qcar_state()
 
+	midpoints = np.empty([2,len(blue_cones_x)+2])
+	midpoints[0,0] = current_x
+	midpoints[1,0] = current_y
+	velocity = 0.5
 	for i in range(0,len(blue_cones_x)):
 		x_midpoint, y_midpoint = midpoint([blue_cones_x[i],blue_cones_y[i]], [yellow_cones_x[i],yellow_cones_y[i]])
-		midpoints[0,i] = x_midpoint
-		midpoints[1,i] = y_midpoint
+		midpoints[0,i+1] = x_midpoint
+		midpoints[1,i+1] = y_midpoint
 		
 
 	midpoints[0,-1] = midpoints[0,0]
@@ -86,6 +103,7 @@ if __name__ == '__main__':
 	midpoints_distance = midpoints_distance/midpoints_distance[-1]
 	midpoints_interpolator = interp1d(midpoints_distance, midpoints, kind = 'quadratic', axis = 1)
 	midpoints = midpoints_interpolator(midpoints_alpha)
+	breakpoint()
 
 	waypoint_times = [0]
 	for i in range(1,len(midpoints[0])):
@@ -96,6 +114,7 @@ if __name__ == '__main__':
 	plt.plot(blue_cones_x,blue_cones_y,marker="o", markersize=10, markeredgecolor="blue", markerfacecolor="blue")
 	plt.plot(yellow_cones_x,yellow_cones_y,marker="o", markersize=10, markeredgecolor="yellow", markerfacecolor="yellow")
 	plt.plot(midpoints[0],midpoints[1],marker="o", markersize=10, markeredgecolor="red", markerfacecolor="red")
+	
 	plt.title('Start Track')
 	ax = plt.gca()
 	ax.set_aspect('equal', adjustable='box')
