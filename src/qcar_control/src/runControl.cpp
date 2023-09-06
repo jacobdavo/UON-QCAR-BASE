@@ -22,17 +22,23 @@ int main(int argc, char **argv)
 
     while(ros::ok())
     {
-        for(int i = 1; i< 100; i++)
+        if(qcarController.getWPT(0) != -1)
         {
+            for(int i = 1; i < qcarController.lengthWP(); i++)
+            {
             std::cout << qcarController.getWPT(i) << std::endl;
             std::cout << qcarController.getWPY(i) << std::endl;
             std::cout << qcarController.getWPX(i) << std::endl << std::endl;
             ros::spinOnce();
             loop_rate.sleep();
-        }   
+            }   
+            //std::cout << qcarController.lengthWP() << std::endl;
+        }
 
-        return 0;
+        //qcarController.command(10, 0);
         
+        ros::spinOnce();
+        loop_rate.sleep();
     }   
 
     return 0;
