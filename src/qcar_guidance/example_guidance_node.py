@@ -91,7 +91,6 @@ if __name__ == '__main__':
 	for i in range(1,len(midpoints[0])):
 		waypoint_distance = math.dist([midpoints[0,i-1],midpoints[1,i-1]],[midpoints[0,i],midpoints[1,i]])
 		waypoint_times.append(waypoint_times[-1] + waypoint_distance/velocity)
-	breakpoint()
 
 	plt.figure()
 	plt.plot(blue_cones_x,blue_cones_y,marker="o", markersize=10, markeredgecolor="blue", markerfacecolor="blue")
