@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 	blue_cones_x,blue_cones_y, yellow_cones_x, yellow_cones_y = get_cone_positions()
 	midpoints = np.empty([2,len(blue_cones_x)+1])
-	velocity = 0.5
+	velocity = 0.2
 
 	for i in range(0,len(blue_cones_x)):
 		x_midpoint, y_midpoint = midpoint([blue_cones_x[i],blue_cones_y[i]], [yellow_cones_x[i],yellow_cones_y[i]])

@@ -55,7 +55,14 @@ int main(int argc, char **argv)
 
                 uVel = qcarController.velocityPID(desVel, qcarController.getStates()->Vel);
 
+                omega = uVel;
+
                 qcarController.command(omega, delta);
+
+                std::cout << "[Time: " << time << "]" << "desHead: " << desHead << "desVel: " << desVel << std::endl;
+                std::cout << "[Time: " << time << "]" << "actHead: " << qcarController.getStates()->Psi << "actVel: " << qcarController.getStates()->Vel << std::endl;
+                //std::cout << "[Time: " << time << "]" << "North: " << qcarController.getStates()->North << "East: " << qcarController.getStates()->East << std::endl;
+                //std::cout << "[Time: " << time << "]" << "desNorth: " << qcarController.getWPY(indexCurrent) << "desEast: " << qcarController.getWPX(indexCurrent) << std::endl << std::endl;
 
                 time = time + dt;
 

@@ -36,7 +36,7 @@ class classControl
         double getVel();
         int lengthWP();
         int getIndex(float);
-        
+
 
         float velocityPID(float velDesired, float vel);
         void command(float omega, float delta);
@@ -77,8 +77,8 @@ class classControl
         float dt = 0;
         float iPrev = 0;
         float ePrev = 0;
-        float Kp = 0.5;
-        float Ki = 0.2;
+        float Kp = 1;
+        float Ki = 0.5;
         float Kd = 0;
         float r = 0.033;
 
