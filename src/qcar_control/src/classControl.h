@@ -77,7 +77,7 @@ class classControl
         float dt = 0;
         float iPrev = 0;
         float ePrev = 0;
-        float Kp = 1;
+        float Kp = 0.8;
         float Ki = 0.5;
         float Kd = 0;
         float r = 0.033;
