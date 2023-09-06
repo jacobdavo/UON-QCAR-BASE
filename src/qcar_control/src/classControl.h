@@ -33,7 +33,10 @@ class classControl
         double getWPX(int);
         double getWPY(int);
         double getWPT(int);
+        double getVel();
         int lengthWP();
+        int getIndex(float);
+
 
         float velocityPID(float velDesired, float vel);
         void command(float omega, float delta);
@@ -67,14 +70,15 @@ class classControl
         std::vector<double> waypoint_times;
         std::vector<double> waypoint_x;
         std::vector<double> waypoint_y;
+        double velocity;
 
         struct States qcarStates;
 
         float dt = 0;
         float iPrev = 0;
         float ePrev = 0;
-        float Kp = 0.5;
-        float Ki = 0.2;
+        float Kp = 0.8;
+        float Ki = 0.5;
         float Kd = 0;
         float r = 0.033;
 
