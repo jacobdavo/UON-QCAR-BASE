@@ -103,7 +103,6 @@ if __name__ == '__main__':
 	midpoints_distance = midpoints_distance/midpoints_distance[-1]
 	midpoints_interpolator = interp1d(midpoints_distance, midpoints, kind = 'quadratic', axis = 1)
 	midpoints = midpoints_interpolator(midpoints_alpha)
-	breakpoint()
 
 	waypoint_times = [0]
 	for i in range(1,len(midpoints[0])):
