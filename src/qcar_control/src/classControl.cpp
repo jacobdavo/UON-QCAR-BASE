@@ -25,10 +25,9 @@ void classControl::init_guidSub()
 void classControl::guidCallback(const qcar_control::TrajectoryMessage::ConstPtr& msg)
 {
 	waypoint_times = msg->waypoint_times;
-    //std::cout << waypoint_times.front() << std::endl;
     waypoint_x = msg->waypoint_x;
     waypoint_y = msg->waypoint_y;
-    //printf("Test\n");
+    velocity = msg->velocity;
 }
 
 double classControl::getWPX(int idx)
@@ -56,6 +55,16 @@ double classControl::getWPT(int idx)
     if(!waypoint_times.empty())
     {
         return waypoint_times.at(idx);
+    }
+
+    return -1; // no waypoints
+}
+
+double classControl::getVel()
+{
+    if(!waypoint_times.empty())
+    {
+        return velocity;
     }
 
     return -1; // no waypoints
@@ -147,4 +156,20 @@ float classControl::velocityPID(float velDesired, float vel)
 	ePrev = e;
 
 	return u;
+}
+
+int classControl::getIndex(float currentTime)
+{
+    int i = 0;
+    int k = 0;
+
+    while((float)waypoint_times.at(i) <= currentTime)
+    {
+        i++;
+        k = i;
+        //printf("k: %d\n", k);
+    }
+
+    return k;
+
 }
