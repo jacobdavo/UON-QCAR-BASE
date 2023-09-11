@@ -49,18 +49,19 @@ def get_cone_positions():
 		rospy.loginfo("Get Model State service call failed:  {0}".format(e))
 
 def get_qcar_state():
-    try:
+	try:
     	
-    	qcar_state_get = rospy.ServiceProxy('/gazebo/get_model_state', GetModelState)
-    	qcar_state = qcar_state_get("qcar", "")
-
-    	current_x = qcar_state.pose.position.x
-    	current_y = qcar_state.pose.position.y
-
-    	return current_x, current_y
-
-    except rospy.ServiceException as e:
-    	rospy.loginfo("Get Model State service call failed:  {0}".format(e))
+		qcar_state_get = rospy.ServiceProxy('/gazebo/get_model_state', GetModelState)
+		qcar_state = qcar_state_get("qcar", "")
+		
+		
+		current_x = qcar_state.pose.position.x
+		current_y = qcar_state.pose.position.y
+		
+		return current_x, current_y
+	
+	except rospy.ServiceException as e:
+		rospy.loginfo("Get Model State service call failed:  {0}".format(e))
 
 if __name__ == '__main__':
 	rospy.init_node('example_guidance_node', disable_signals=True)

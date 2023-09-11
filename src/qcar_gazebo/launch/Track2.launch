@@ -7,16 +7,16 @@
     <arg name="pitch" default="0"/>
     <arg name="yaw" default="-3.14"/>
 
-	<!-- Send the URDF to the parameter server -->
+	<!-- Send the URDF file to the ROS parameter server -->
 	<param name="robot_description" command="$(find xacro)/xacro $(find qcar_gazebo)/urdf/qcar_model.xacro" />
 
 	<rosparam file="$(find qcar_controlplugin)/config/qcar_controlplugin.yaml" command="load"/>
 
-	<!-- Publish the robot state -->
+	<!-- Setup the joint state publisher to publisher the state of the robot -->
 	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
 	</node>
 
-	<!-- convert joint states to TF transforms for rviz, etc -->
+	<!-- convert the robot joint states to TF transforms for visualisation in rviz -->
   	<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
     	respawn="false" output="screen">
     	<remap from="/joint_states" to="/qcar/joint_states" />
@@ -35,7 +35,7 @@
         -x $(arg x) -y $(arg y) -z $(arg z)
         -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/>
 
-	<!-- Spawn the controller -->
+	<!-- Spawn the various controllers -->
 	<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
 		output="screen" ns="/qcar" args="base_fr_controller base_fl_controller joint_state_controller"/>
 
