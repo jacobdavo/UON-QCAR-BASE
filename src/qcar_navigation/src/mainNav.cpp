@@ -21,9 +21,7 @@ int main(int argc, char **argv)
     double accZ;
 
     int rlEncoder;
-
-
-
+    
     while(ros::ok())
     {
         accZ = qcarNavigation.getAccZ();
