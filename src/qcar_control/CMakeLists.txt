@@ -134,8 +134,8 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/qcar_control_node.cpp)
-add_executable(control_node src/runControl.cpp src/classControl.cpp)
-target_link_libraries(control_node ${catkin_LIBRARIES})
+add_executable(example_control_node src/runControl.cpp src/classControl.cpp)
+target_link_libraries(example_control_node ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
