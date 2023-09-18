@@ -12,7 +12,7 @@ BLUE_CONE_SDF="""
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/catkin_ws/src/mybot_gazebo/meshes/bluecone.dae</uri>
+              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -33,7 +33,7 @@ BLUE_CONE_SDF="""
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/catkin_ws/src/mybot_gazebo/meshes/bluecone.dae</uri>
+              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/bluecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -65,7 +65,7 @@ YELLOW_CONE_SDF="""
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/catkin_ws/src/mybot_gazebo/meshes/yellowcone.dae</uri>
+              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -86,7 +86,7 @@ YELLOW_CONE_SDF="""
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/catkin_ws/src/mybot_gazebo/meshes/yellowcone.dae</uri>
+              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/yellowcone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -118,7 +118,7 @@ ORANGE_CONE_SDF="""
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/catkin_ws/src/mybot_gazebo/meshes/orangecone.dae</uri>
+              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -139,7 +139,7 @@ ORANGE_CONE_SDF="""
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/jacob/catkin_ws/src/mybot_gazebo/meshes/orangecone.dae</uri>
+              <uri>/home/jacob/UON-QCAR-BASE/src/qcar_gazebo/models/cones/orangecone.dae</uri>
             </mesh>
           </geometry>
         </visual>
