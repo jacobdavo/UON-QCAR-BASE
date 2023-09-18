@@ -53,7 +53,7 @@ BLUE_CONE_SDF="""
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>3 3 0.5 0 0 0</pose>
+      <pose>0 0 0.5 0 0 0</pose>
     </model>
 </sdf>
 """
@@ -106,7 +106,7 @@ YELLOW_CONE_SDF="""
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>3 3 0.5 0 0 0</pose>
+      <pose>0 0 0.5 0 0 0</pose>
     </model>
 </sdf>
 """
@@ -159,7 +159,7 @@ ORANGE_CONE_SDF="""
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>3 3 0.5 0 0 0</pose>
+      <pose>0 0 0.5 0 0 0</pose>
     </model>
 </sdf>
 """
@@ -215,8 +215,8 @@ class ConeSpawner:
         modelstate = ModelState()
         modelstate.model_name = model_name
         print("x:",float(self.x_points[i]),"y:", float(self.y_points[i]))
-        modelstate.pose.position.x = float(self.x_points[i])-3.0
-        modelstate.pose.position.y = float(self.y_points[i])-3.0
+        modelstate.pose.position.x = float(self.x_points[i])
+        modelstate.pose.position.y = float(self.y_points[i])
         modelstate.pose.position.z = 0
         modelstate.pose.orientation.x = 0
         modelstate.pose.orientation.y = 0
