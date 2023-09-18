@@ -1,27 +1,26 @@
 // classControl.cpp
 // control class for ROS control_package
-// Elliott G. Shore
-// University of Newcastle, July 2023
 
 #include "ros/ros.h"
 #include "classControl.h"
 
-
-classControl::classControl(ros::NodeHandle* _n, float dt_)
+// Constructor for class classControl
+classControl::classControl(ros::NodeHandle* _n)
 {
     n = _n;
-	dt = dt_;
     init_guidSub();
     init_navSub();
     init_cmdPub();
     printf("classControl successfuly created!\n");
 };
 
+// guidance subscriber intialiser
 void classControl::init_guidSub()
 {
     subGuid = n->subscribe("/qcar/trajectory_topic", 0, &classControl::guidCallback, this);
 }
 
+// guidance subscriber callback function
 void classControl::guidCallback(const qcar_control::TrajectoryMessage::ConstPtr& msg)
 {
 	waypoint_times = msg->waypoint_times;
@@ -30,6 +29,7 @@ void classControl::guidCallback(const qcar_control::TrajectoryMessage::ConstPtr&
     velocity = msg->velocity;
 }
 
+// get x-coord. of waypoints
 double classControl::getWPX(int idx)
 {
     if(!waypoint_x.empty())
@@ -40,6 +40,7 @@ double classControl::getWPX(int idx)
     return -1; // no waypoints
 }
 
+// get y-coord. of waypoints
 double classControl::getWPY(int idx)
 {
     if(!waypoint_y.empty())
@@ -50,6 +51,7 @@ double classControl::getWPY(int idx)
     return -1; // no waypoints
 }
 
+// get time of waypoints
 double classControl::getWPT(int idx)
 {
     if(!waypoint_times.empty())
@@ -60,6 +62,7 @@ double classControl::getWPT(int idx)
     return -1; // no waypoints
 }
 
+// get velocity of waypoints
 double classControl::getVel()
 {
     if(!waypoint_times.empty())
@@ -70,26 +73,29 @@ double classControl::getVel()
     return -1; // no waypoints
 }
 
+// navigation subscriber initialiser
 // this callback should talk to the navigation topics i.e not /odom. Talk to the simulated sensors instead.
 void classControl::init_navSub()
 {
 	subNav = n->subscribe("/odom", 0, &classControl::navCallback, this);
 }
 
+// navigation suscriber callback function
 void classControl::navCallback(const nav_msgs::Odometry::ConstPtr& msg)
 {
 	qcarStates.North = msg->pose.pose.position.y;
 	qcarStates.East = msg->pose.pose.position.x;
 	qcarStates.Psi = quat_to_rad(msg->pose.pose.orientation.x, msg->pose.pose.orientation.y, msg->pose.pose.orientation.z, msg->pose.pose.orientation.w);
 	qcarStates.Vel = sqrt(pow(msg->twist.twist.linear.x,2) + pow(msg->twist.twist.linear.y,2));
-    //printf("test2\n");
 }
 
+// get qcarStates structure
 States* classControl::getStates()
 {
 	return &qcarStates;
 }
 
+// quaternions to rads conversion function
 float classControl::quat_to_rad(float x, float y, float z, float w)
 {
 	float yaw;
@@ -103,11 +109,13 @@ float classControl::quat_to_rad(float x, float y, float z, float w)
     return yaw;
 }
 
-int classControl::lengthWP()
+// get the length of waypoints vector
+std::vector<double>& classControl::getWPVec()
 {
-    return waypoint_times.size();
+    return waypoint_times;
 }
 
+// command publisher initialiser 
 void classControl::init_cmdPub()
 {
 
@@ -120,6 +128,7 @@ void classControl::init_cmdPub()
     pubCmdFrs = n->advertise<std_msgs::Float64>("qcar/base_fr_controller/command", 1);
 }
 
+// command publisher function
 void classControl::command(float omega, float delta)
 {
 
@@ -136,28 +145,7 @@ void classControl::command(float omega, float delta)
     pubCmdFrs.publish(angCmd);
 }
 
-float classControl::velocityPID(float velDesired, float vel)
-{
-	float P;
-	float I;
-	float D;
-	float e;
-	float u;
-
-	e = velDesired - vel;
-
-	P = e;
-	I = iPrev + e*dt;
-	D = (e - ePrev)/dt;
-
-	u = (Kp*P + Ki*I + Kd*D)/r;
-
-	iPrev = I;
-	ePrev = e;
-
-	return u;
-}
-
+// get the current index of waypoints
 int classControl::getIndex(float currentTime)
 {
     int i = 0;
@@ -167,9 +155,7 @@ int classControl::getIndex(float currentTime)
     {
         i++;
         k = i;
-        //printf("k: %d\n", k);
     }
 
     return k;
-
 }
