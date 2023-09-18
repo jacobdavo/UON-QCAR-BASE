@@ -64,8 +64,7 @@ def get_qcar_state():
 		rospy.loginfo("Get Model State service call failed:  {0}".format(e))
 
 if __name__ == '__main__':
-	rospy.init_node('example_guidance_node', disable_signals=True)
-
+	rospy.init_node('example_guidance_node')
 
 	# prevents the node from running whilst ros/gazebo is starting up
 	rosrunning = 0
