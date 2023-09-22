@@ -4,6 +4,7 @@
 
   <xacro:include filename="$(find qcar_gazebo)/urdf/materials.xacro" />
   <xacro:include filename="$(find gazebo_ros_motors)/xacro/joint_motor.xacro"/>
+  <xacro:include filename="$(find gazebo_ros_motors)/xacro/dc_motor.xacro"/> <!--dc motor plugin include--> 
 
   <!-- <xacro:include filename="$(find qcar_gazebo)/urdf/lidar.xacro" /> -->
   <!-- <xacro:include filename="$(find qcar_gazebo)/urdf/camera.xacro" /> -->
@@ -124,12 +125,6 @@
             <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
         </inertial>
     </link>
-    <!-- <joint name="hubfl_wheelfl_joint" type="continuous">
-        <parent link="hubfl"/>
-        <child link="wheelfl"/>
-        <origin rpy="0 0 3.14" xyz="0 0 0"/>
-        <axis xyz="0 1 0"/>
-    </joint> -->
     <xacro:joint_motor motor_name="wheelfl_motor" parent_link="hubfl" child_link="wheelfl">
         <xacro:property name="params_yaml" value="$(find gazebo_ros_motors)/params/joint_motor.yaml"/>
         <origin xyz="0 0 0" rpy="0 0 3.14"/>
@@ -155,12 +150,6 @@
             <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
         </inertial>
     </link>
-    <!-- <joint name="hubfr_wheelfr_joint" type="continuous">
-        <parent link="hubfr"/>
-        <child link="wheelfr"/>
-        <origin rpy="0 0 0" xyz="0 0 0"/>
-        <axis xyz="0 1 0"/>
-    </joint> -->
     <xacro:joint_motor motor_name="wheelfr_motor" parent_link="hubfr" child_link="wheelfr">
         <xacro:property name="params_yaml" value="$(find gazebo_ros_motors)/params/joint_motor.yaml"/>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -187,12 +176,6 @@
         </inertial>
     </link>
 
-    <!-- <joint name="base_wheelrl_joint" type="continuous">
-        <parent link="base"/>
-        <child link="wheelrl"/>
-        <origin rpy="0 0 3.14" xyz="-0.12765 0.05610 0.03338"/>
-        <axis xyz="0 1 0"/>
-    </joint> -->
     <xacro:joint_motor motor_name="wheelrl_motor" parent_link="base" child_link="wheelrl">
         <xacro:property name="params_yaml" value="$(find gazebo_ros_motors)/params/joint_motor.yaml"/>
         <origin xyz="-0.12765 0.05610 0.03338" rpy="0 0 3.14"/>
@@ -219,12 +202,6 @@
         </inertial>
     </link>
 
-    <!-- <joint name="base_wheelrr_joint" type="continuous">
-        <parent link="base"/>
-        <child link="wheelrr"/>
-        <origin rpy="0 0 0" xyz="-0.12765 -0.05610 0.03338"/>
-        <axis xyz="0 1 0"/>
-    </joint> -->
     <xacro:joint_motor motor_name="wheelrr_motor" parent_link="base" child_link="wheelrr">
         <xacro:property name="params_yaml" value="$(find gazebo_ros_motors)/params/joint_motor.yaml"/>
         <origin xyz="-0.12765 -0.05610 0.03338" rpy="0 0 0"/>
