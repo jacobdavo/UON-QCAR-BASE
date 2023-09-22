@@ -109,15 +109,15 @@ if __name__ == '__main__':
 		waypoint_distance = math.dist([midpoints[0,i-1],midpoints[1,i-1]],[midpoints[0,i],midpoints[1,i]])
 		waypoint_times.append(waypoint_times[-1] + waypoint_distance/velocity)
 
-	plt.figure()
-	plt.plot(blue_cones_x,blue_cones_y,marker="o", markersize=10, markeredgecolor="blue", markerfacecolor="blue")
-	plt.plot(yellow_cones_x,yellow_cones_y,marker="o", markersize=10, markeredgecolor="yellow", markerfacecolor="yellow")
-	plt.plot(midpoints[0],midpoints[1],marker="o", markersize=10, markeredgecolor="red", markerfacecolor="red")
+	# plt.figure()
+	# plt.plot(blue_cones_x,blue_cones_y,marker="o", markersize=10, markeredgecolor="blue", markerfacecolor="blue")
+	# plt.plot(yellow_cones_x,yellow_cones_y,marker="o", markersize=10, markeredgecolor="yellow", markerfacecolor="yellow")
+	# plt.plot(midpoints[0],midpoints[1],marker="o", markersize=10, markeredgecolor="red", markerfacecolor="red")
 	
-	plt.title('Start Track')
-	ax = plt.gca()
-	ax.set_aspect('equal', adjustable='box')
-	plt.show()
+	# plt.title('Start Track')
+	# ax = plt.gca()
+	# ax.set_aspect('equal', adjustable='box')
+	# plt.show()
 
 	rate = rospy.Rate(0.2)
 	while not rospy.is_shutdown():
