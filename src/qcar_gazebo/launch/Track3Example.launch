@@ -1,0 +1,48 @@
+<launch>	  
+    <!-- Set initial robot pose -->
+    <arg name="x" default="4.6"/>
+    <arg name="y" default="11.5"/>
+    <arg name="z" default="0"/>
+    <arg name="roll" default="0"/>
+    <arg name="pitch" default="0"/>
+    <arg name="yaw" default="-3.14"/>
+
+	<!-- Send the URDF file to the ROS parameter server -->
+	<param name="robot_description" command="$(find xacro)/xacro $(find qcar_gazebo)/urdf/qcar_model.xacro" />
+
+	<rosparam file="$(find qcar_controlplugin)/config/qcar_controlplugin.yaml" command="load"/>
+
+	<!-- Setup the joint state publisher to publisher the state of the robot -->
+	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+	</node>
+
+	<!-- convert the robot joint states to TF transforms for visualisation in rviz -->
+  	<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+    	respawn="false" output="screen">
+    	<remap from="/joint_states" to="/qcar/joint_states" />
+  	</node>
+
+	<!-- Launch the Gazebo World -->
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">	    
+		<arg name="world_name" value="$(find qcar_gazebo)/worlds/Track3.world"/>	    
+		<arg name="gui" value="true"/>	
+		<arg name="verbose" value="true" />  
+	</include>	
+
+	<!-- Spawn the qcar -->
+	<node name="spawn_qcar" pkg="gazebo_ros" type="spawn_model" output="screen" 
+		args="-urdf -param robot_description -model qcar
+        -x $(arg x) -y $(arg y) -z $(arg z)
+        -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/>
+
+	<!-- Spawn the various controllers -->
+	<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+		output="screen" ns="/qcar" args="base_fr_controller base_fl_controller joint_state_controller"/>
+
+    <!-- Launch Guidance node -->
+    <node name="guidance_node" pkg="qcar_guidance" type="example_guidance_node.py" output="screen"/>
+
+    <!-- Launch Control node -->
+    <node name="control_node" pkg="qcar_control" type="example_control_node" output="screen"/>
+
+</launch>

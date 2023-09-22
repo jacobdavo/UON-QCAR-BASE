@@ -136,6 +136,7 @@ include_directories(
 # add_executable(${PROJECT_NAME}_node src/qcar_control_node.cpp)
 add_executable(example_control_node src/runControl.cpp src/classControl.cpp)
 target_link_libraries(example_control_node ${catkin_LIBRARIES})
+add_dependencies(example_control_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
