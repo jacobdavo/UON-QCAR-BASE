@@ -11,7 +11,6 @@ classControl::classControl(ros::NodeHandle* _n)
     init_guidSub();
     init_navSub();
     init_cmdPub();
-    printf("classControl successfuly created!\n");
 };
 
 // guidance subscriber intialiser
