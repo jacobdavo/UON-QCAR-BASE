@@ -18,7 +18,7 @@
         </sensor>
     </gazebo>
 
-   <!--  <gazebo reference="camera_csi_right">
+    <gazebo reference="camera_csi_right">
         <sensor type="camera" name="right_camera">
             <visualize>true</visualize>
             <update_rate>10</update_rate>
@@ -70,5 +70,5 @@
                 <cameraName>back_camera</cameraName>
             </plugin>
         </sensor>
-    </gazebo> -->
+    </gazebo>
 </robot>

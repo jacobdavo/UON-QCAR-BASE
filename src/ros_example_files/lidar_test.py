@@ -6,7 +6,7 @@ import math
 import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
-	rospy.init_node('guidance_node', disable_signals=True)
+	rospy.init_node('lidar_node', disable_signals=True)
 
 	rosrunning = 0
 	while rosrunning==0:
@@ -15,7 +15,7 @@ if __name__ == '__main__':
 			rosrunning = 1
 
 	rate = rospy.Rate(0.2)
-	scan_sub = lidar_data.LidarData()
+	scan_sub = lidar_data.LidarData() #create lidar data class from lidar_data.py file
 	rate.sleep()
 	angle_min, angle_max, angle_increment = scan_sub.get_angle_data()
 	print(angle_min)
@@ -25,7 +25,6 @@ if __name__ == '__main__':
 	print("starting")
 		
 	ranges = scan_sub.get_ranges()
-
 
 	plt.figure()
 	current_angle = angle_min

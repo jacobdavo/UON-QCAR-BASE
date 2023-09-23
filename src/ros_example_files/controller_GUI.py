@@ -38,7 +38,7 @@ class CONTROLWindow(QWidget):
         super(CONTROLWindow, self).__init__()
 
         master_layout = QGridLayout(self)
-        self.setWindowTitle('UON AUTONOMOUS  JACOB TEST TOOL')
+        self.setWindowTitle('UON AUTONOMOUS TEST TOOL')
 
         self.velocity_value = 0
         self.steering_value = 0

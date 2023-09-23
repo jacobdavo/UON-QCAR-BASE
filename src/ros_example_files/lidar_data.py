@@ -20,6 +20,8 @@ class LidarData(object):
 		self.ranges = value.ranges
 		self.angle_min = value.angle_min
 		self.angle_max = value.angle_min
+		self.range_min = value.range_min
+		self.range_max = value.range_max
 		self.angle_increment = value.angle_increment
 
 	def get_angle_data(self):

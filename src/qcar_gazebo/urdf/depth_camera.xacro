@@ -19,7 +19,7 @@
                         <height>480</height>
                         <format>L8</format>
                     </image>
-                    <range>12.0</range>
+                    <range>10</range>
                 </depth>
             </camera>
             <plugin name="camera_controller" filename="libgazebo_ros_depth_camera.so">

@@ -7,8 +7,8 @@
   <xacro:include filename="$(find gazebo_ros_motors)/xacro/dc_motor.xacro"/> <!--dc motor plugin include--> 
 
   <!-- <xacro:include filename="$(find qcar_gazebo)/urdf/lidar.xacro" /> -->
-  <!-- <xacro:include filename="$(find qcar_gazebo)/urdf/camera.xacro" /> -->
-  <!-- <xacro:include filename="$(find qcar_gazebo)/urdf/depth_camera.xacro" /> -->
+  <xacro:include filename="$(find qcar_gazebo)/urdf/camera.xacro" />
+  <xacro:include filename="$(find qcar_gazebo)/urdf/depth_camera.xacro" />
   <xacro:include filename="$(find qcar_gazebo)/urdf/imu.xacro" />
 
 
