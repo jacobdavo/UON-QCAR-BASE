@@ -23,8 +23,7 @@
                 </depth>
             </camera>
             <plugin name="camera_controller" filename="libgazebo_ros_depth_camera.so">
-                <cameraName>intel_depth_camera</cameraName>
-                <frameName>hello</frameName>
+                <cameraName>depth_camera</cameraName>
             </plugin>
         </sensor>
     </gazebo>
