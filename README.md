@@ -1,3 +1,0 @@
-# UON-QCAR-BASE
-
-TESTING
