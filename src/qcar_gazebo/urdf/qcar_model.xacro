@@ -74,7 +74,7 @@
         <axis xyz="0 0 1"/>
         <dynamics damping="0.143" friction="0.0"/>
         <limit lower="-0.5236" upper="0.5236" effort="300" velocity="2"/>
-        <!-- <limit lower="-3.1416" upper="3.1416" effort="300" velocity="2"/> -->
+
     </joint>
     <link name="hubfl">
         <visual>
@@ -102,7 +102,6 @@
         <origin rpy="0 0 0" xyz="0.12960 -0.05590 0.03338"/>
         <axis xyz="0 0 1"/>
         <limit lower="-0.5236" upper="0.5236" effort="300" velocity="2"/>
-        <!-- <limit lower="-3.1416" upper="3.1416" effort="300" velocity="2"/> -->
         <dynamics damping="0.143" friction="0.0"/>
     </joint>
     <link name="hubfr">
